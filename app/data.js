@@ -1,0 +1,217 @@
+const prodcuts = [
+{
+	id: "1",
+	title: "Almond brown nuts",
+	ratings: 5,
+	reviews: "100",
+	qty: "Pack of 150",	
+	picture: require('./assets/images/Products/almond-brown-nuts.png'),
+	cost: 25,
+	about : "Almonds - Roasted & Salted create up a key part of a strong and various diet. Their moderately long shelf life, portability and wealthy nutrient profile create nuts perfect snack ideas to aid you to keep a healthy diet. Roasted salted almonds benefit your health by increasing your intake of a few key nutrients.",
+	storage : "You can keep at anywhere ",
+	benefits : "Almonds are low in sugar and rich in fiber, heart-healthy fats, and plant protein. They’re also a good source of copper, magnesium, and manganese — nutrients important for energy production, brain health, immunity, and bone health.	",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "2",
+	title: "Apple",
+	ratings: 1,
+	reviews: "200",
+	qty: "Pack of 30",	
+	picture: require("./assets/images/Products/apple.png"),
+	cost: 35.99,
+	about : "The bright red coloured and heart shaped Red Delicious apples are crunchy, juicy and slightly sweet. Red Delicious Apples are a natural source of fibre and are fat free. They contain a wide variety of anti-oxidants and polynutrients. ",
+	storage : "Store them in a cool, dry place away from direct sunlight. Wrap them with newspaper individually to keep them fresh for a long time.",
+	benefits : "Apples are one of the healthiest fruits. Rich in vitamin C and dietary fiber which keep our digestive and immune system healthy. Protects from Alzheimers, type 2 diabetes and cancer.It's a natural teeth whitener and prevent bad breath. Eating apple peel lowers the risk of obesity. Apple mask is an excellent cure for wrinkles",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "3",
+	title: "Carrat",
+	ratings: 4.5,
+	reviews: "300",
+	qty: "Pack of 35",	
+	picture: require("./assets/images/Products/carrat.png"),
+	cost: 25.99,
+	about : "It prevents irritation and gives excellent effect especially on troublesome skin. Tea tree gives moisture to the skin that is shiny and balances oil. Carrot works wonders on dull and tired skin, it helps to refresh and rejuvenate the skin more lively and healthy.",
+	storage : "Store carrot stem side down in a single layer, at room temperature, away from the sunlight. Ripe tomatoes should be refrigerated if they need to be stored for a long time. carrot are used in salads",
+	benefits : "They're rich in beta-carotene, a compound your body changes into vitamin A, which helps keep your eyes healthy. And beta-carotene helps protect your eyes from the sun and lowers your chances of cataracts and other eye problems.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "4",
+	title: "Cashew nuts",
+	ratings: 0,
+	reviews: "5",
+	qty: "Pack of 98",	
+	picture: require("./assets/images/Products/cashew-nuts.png"),
+	cost: 45.99,
+	about : "Welcome to the World of Healthy living Considering the amazing benefits it brings to the plate, it's no surprise that people world over are going organic, Besides making our food free of chemicals, organic farming helps farmers and Protects the Environment",
+	storage : "You can keep at anywhere ",
+	benefits : "Cashews are low in sugar and rich in fiber, heart-healthy fats, and plant protein. They’re also a good source of copper, magnesium, and manganese — nutrients important for energy production, brain health, immunity, and bone health.	",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "5",
+	title: "Cherry Fruit",
+	ratings: 1,
+	reviews: "50",
+	qty: "Pack of 10",	
+	picture: require("./assets/images/Products/cheery-fruit.png"),
+	cost: 20.99,
+	about : "Fresho brings top quality imported red coloured cherries are which round with slight heart shapes and dimples at the stem end. These red coloured fruits have firm and juicy flesh with a sweet-tart flavour. Fresho Cherries are directly procured from farmers, carefully packed to ensure the fine quality for you. 	",
+	storage : "Refrigerate them immediately. Do not keep them at room temperature as they lose their quality soon. Cherries are a quick, delicious snack. Embellish your oatmeal, custards, salads, desserts with cherrries. They make a great toppings. Blend them into thick and attractive smoothies.	",
+	benefits : "Cherries reduce arthritis pain and lower the risk of stroke. They are rich in fiber and vitamin C. Cherries also reduce belly fat and supports healthy sleep.	",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "6",
+	title: "Cocunut",
+	ratings: 2,
+	reviews: "2",
+	qty: "Pack of 23",	
+	picture: require("./assets/images/Products/cocunut.png"),	
+	cost: 22.00,
+	about : "Coconut is a extremely steady fruit. It is a grown-up fruit of the cocos nucifera palm. The fruit is approximately spherical to oval in shape and measure between 5-10 inches in width. Its hard external husk is light green, and turns gray as the nut grown up. The husk is concerning 1-2 inches in thickness and completed of solid fibers 	",
+	storage : "you can store at any place",
+	benefits : "Coconut is to stabilizing blood sugar, lowering cholesterol, healing, hydration and even replacing blood plasma in an emergency.	",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "7",
+	title: "Grapes",
+	ratings: 5,
+	reviews: "3",
+	qty: "Pack of 13",	
+	picture: require("./assets/images/Products/grapes.png"),
+	cost: 25.99,
+	about : "Velvety colored, deliciously sweet and juicy, Fresho black seedless grapes are individually handpicked everyday by our farmers and handled by very few, keeping the freshness intact. These are organically grown black grapes from the best farms. ",
+	storage : "Wash the grapes under cool, running water. Pat them dry and store it in the refrigerator.Rinse well and eat them right off the vine for a healthy, refreshing snack any time of day. You can also freeze them and toss them in drinks. ",
+	benefits : "Black seedless grapes protect against cancer, heart and nerve diseases. They prevent Alzheimer's disease and viral/fungal infections. Good source of vitamin A and minerals and also good for vision. The antioxidents present in these grapes protect one against the harmful untraviolet rays.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "8",
+	title: "Green Apple",
+	ratings: 2,
+	reviews: "100",
+	qty: "Pack of 15",	
+	picture: require("./assets/images/Products/green-apple.png"),
+	cost: 63.01,
+	about : "Green apples have a pleasing light-green coloured skin with a sweet and sour taste. They contain more fiber, less carbohydrates and sugar than red apples. Premium apples are handpicked by our experts to give you the best quality apples. ",
+	storage : "Store them in a cool, dry place away from direct sunlight. Wrap them with newspaper individually to keep them fresh for a long time. If any apple goes bad, it protects other apples from getting spoiled. Take a cup of water, dissolve 1/8th teaspoon of salt in it. ",
+	benefits : "Apples are one of the healthiest fruits. Rich in vitamin C and dietary fiber which keep our digestive and immune system healthy. Protects from Alzheimers, type 2 diabetes and cancer.It's a natural teeth whitener and prevent bad breath.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "9",
+	title: "Mango",
+	ratings: 1,
+	reviews: "5",
+	qty: "Pack of 10",	
+	picture: require("./assets/images/Products/mango.png"),
+	cost: 95.99,
+	about : "Popularly known as Rajgira in Karnataka, the soft and juicy fleshed fruit has a distinct appearance with shades of green and red. It is also known as 'Honey Mango' because of its exceptional flavour and sweetness. The term Sindhura came about due to its vermillion shade that resembles Sindoor.",
+	storage : "Store mangoes at room temperature. Squeeze the mango gently. Ripe mangoes are softer and have fruity aroma at stem ends. Check for it before consumption. Good to make juices and shakes owing to its juicy texture.",
+	benefits : "It is rich in prebiotic dietary fibre that fertilises beneficial bacteria in our gut. Controls heart rate and blood pressure. It gives a lavish supply of Vitamin A, B6 and K.	",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "10",
+	title: "Orange",
+	ratings: 5,
+	reviews: "10",
+	qty: "Pack of 8",	
+	picture: require("./assets/images/Products/orange.png"),
+	cost: 90.99,
+	about : "Lovely, bright, reddish, glossy and smooth skinned fruits called Kinnows are hybrids and are a variety of Mandarin oranges. They are juicier and sweeter than regular oranges.",
+	storage : "Store them in a cool, dry place away from direct sunlight. No pulpy orange canned juice can match the fresh taste of Kinnow oranges. Bursting with freshly picked juiciness, these are perfect to serve to kids. We also like to toss sections into fruit salads.",
+	benefits : "Oranges are a good source of vitamin C and B complex. They lower cholesterol and control blood sugar level. Oranges contain carotenoids, which maintains good eye health and prevents constipation. Orange peels are highly nutritious, fiber-rich and edible. They are believed to be good for skin and nails.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "11",
+	title: "Paprika",
+	ratings: 3,
+	reviews: "20",
+	qty: "Pack of 6",	
+	picture: require("./assets/images/Products/paprika.png"),
+	cost: 77.99,
+	about : "A double whammy of healthy deliciousness. These paprika pumpkin seeds will satisfy your cravings for something spicy to munch on, not to mention helping you on your way to a healthier heart and liver. Great for parties and office pantries!",
+	storage : "Store tomatoes stem side down in a single layer, at room temperature, away from the sunlight. Ripe tomatoes should be refrigerated if they need to be stored for a long time. Tomatoes are used in salads, soups, curries, pickles, etc. Tomatoes that are cooked with a touch of oil gives more lycopene than raw ones. ",
+	benefits : "paprika contain lycopene, an antioxidant that reduces the risk of cancer and heart-diseases. They protect the eyes from light induced damage. Essential for pregnant women as these tomatoes protect infants against neural tube defects. ",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "12",
+	title: "Pine Apple",
+	ratings: 4,
+	reviews: "50",
+	qty: "Pack of 3",	
+	picture: require("./assets/images/Products/pine-apple.png"),
+	cost: 66.99,
+	about : "With the shape of a pine cone, the fruit is loosely fibrous and juicy with white to yellowish flesh. The edible center part is firm, leathery and sweet.",
+	storage : "Uncut, ripe pineapples usually last for about 3 days in room temperature. Store freshly cut pineapples in an air tight container and refrigerate. Pineapples can be cut and eaten fresh. These luxurious treats are used to prepare juices, smoothies, desserts and also added in salads and seafoods.",
+	benefits : "Pineapples reduce the risk of macular degeneration, a disease that affects the eyes as people age due to vitamin C and antioxidants present in it. Reduces inflammation and blood clot. Also reduces common cold and sinus inflammation. Helps develop strong bones.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "13",
+	title: "Pistachio nuts",
+	ratings: 2,
+	reviews: "80",
+	qty: "Pack of 5",	
+	picture: require("./assets/images/Products/pistachio-nuts.png"),
+	cost: 19.99,
+	about : "Existing Combination Of Freshly Roasted Almonds, Cashews & Pistachios.",
+	storage : "For a longer storage period, place pistachios in an airtight container in the refrigerator or freezer. Unshelled nuts may be stored for three months in the refrigerator or up to one year in the freezer",
+	benefits : "Pistachios are high in protein, fiber, and antioxidants. They also boast several other important nutrients, including vitamin B6 and potassium",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "14",
+	title: "Pomegranate",
+	ratings: 4,
+	reviews: "1000",
+	qty: "Pack of 10",	
+	picture: require("./assets/images/Products/pomegranate.png"),
+	cost: 29.99,
+	about : "With ruby color and an intense floral, sweet-tart flavor, the pomegranate delivers both taste and beauty. You can remove the skin and the membranes to get at the delicious fruit with nutty seeds.",
+	storage : "Whole fruit can be refrigirated upto 2 months. Fresh seeds and juice can be refrigerated for upto 5 days. Eat the juicy seeds raw or add into salads, garnishes or desserts. ",
+	benefits : "Pomegranate juice lowers bad cholesterol and raises good cholesterol. Reduces the risk of heart stoke. Gives a boost of energy and freshness. So, this is specially recommended for women during menopause. Good for pregnant women as it prevents brain damage in infants.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 5 days from delivery date"
+},
+{
+	id: "15",
+	title: "Strawberry",
+	ratings: 1,
+	reviews: "500",
+	qty: "Pack of 15",	
+	picture: require("./assets/images/Products/strawberry.png"),
+	cost: 19.99,
+	about : "Extremely juicy and syrupy, these conical heart shaped fruits have seeds on the skin that give them a unique texture. With a blend of sweet-tart flavour, these are everyone's favourite berries.",
+	storage : "Do not rinse berries under running water as the pressure can crush them. Dip them in a bowl of cold water and allow the berries to drain. Store them in a cool, dry place away from direct sunlight.",
+	benefits : "Strawberries improve heart function.They are rich in antioxidants and detoxifiers, which reduce arthritis and gout pain. Folic acid present in strawberries is necessary for pregnant women as it helps prevent birth defects. They maintain bone, skin, hair and eye health. Crushed strawberry mixed with baking soda acts as a natural teeth whitener.",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+},
+{
+	id: "16",
+	title: "Tomatto",
+	ratings: 5,
+	reviews: "10",
+	qty: "Pack of 30",	
+	picture: require("./assets/images/Products/tomatto.png"),
+	cost: 20.10,
+	about : "Tomato Hybrids are high-quality fruits compared to desi, local tomatoes. They contain numerous edible seeds and are red in colour due to lycopene, an anti-oxidant.",
+	storage : "Store tomatoes stem side down in a single layer, at room temperature, away from the sunlight. Ripe tomatoes should be refrigerated if they need to be stored for a long time. Tomatoes are used in salads, soups, curries, pickles, etc. Tomatoes that are cooked with a touch of oil gives more lycopene than raw ones. ",
+	benefits : "Tomatoes contain lycopene, an antioxidant that reduces the risk of cancer and heart-diseases. They protect the eyes from light induced damage. Essential for pregnant women as these tomatoes protect infants against neural tube defects. ",
+	productInfo : "EAN Code: 10000200\nSourced & Marketed by: Supermarket Grocery Supplies Pvt. Ltd, No. 7, Service Road, Off 100 Feet Road Indiranagar Landmark: Above HDFC Bank\nBangalore, Karnataka 560071\nCountry of Origin: India\nBest before 3 days from delivery date"
+}
+];
+
+export const getProducts = () => {
+    return prodcuts;
+    
+}
+
+
